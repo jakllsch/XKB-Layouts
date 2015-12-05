@@ -3,15 +3,9 @@
 // An xkb geometry file to generate custom 104/105 layouts.
 // Written by Fredrik Atmer, Free to use in whatever way you want.
 //
-// Create a symbolic link /usr/share/X11/xkb/geometry/widths (or equivalent)
-// pointing to this file in your working directory. Or figure out how the
-// xkb path system works..
-//
-// $> cd /usr/share/X11/xkb/geometry/; sudo ln -s /home/fredrik/widths widths; cd -
-//
 // To render output
 //
-// xkbcomp -m [U]layout[/U] widths; xkbprint [U]layout[/U].xkm
+// xkbcomp -I. -m [U]layout[/U] widths; xkbprint [U]layout[/U].xkm
 //
 // Also see the man pages for the xkb-commands for further options.
 //
